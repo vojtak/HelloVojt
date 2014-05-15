@@ -9,8 +9,9 @@ using namespace std;
 double magicNumber() {
 
   /* this is placeholder, fill it with some fancy stuff! */
-  return 42;
+  return 142;
 }
+
 
 int main(void) {
   for(int i = 0; i < magicN/2+1; i++) {
