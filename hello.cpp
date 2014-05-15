@@ -9,7 +9,7 @@ using namespace std;
 double magicNumber() {
 
   /* this is placeholder, fill it with some fancy stuff! */
-  return 142;
+  return 4242;
 }
 
 
