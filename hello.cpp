@@ -12,11 +12,16 @@ double magicNumber() {
 
 int main(int argc, char **argv) {
   if(argc != 2 || atoi(argv[1]) <= 0) {
-    printf("program requies exactly one positive integer argument\n");
+    printf("program requies exactly one positive even integer argument\n");
     return -1;
   }
 
   const int magicN = atoi(argv[1]);
+
+  if(magicN % 2 == 1) {
+    printf("program requies exactly one positive EVEN integer argument\n");
+    return -2;
+  }
 
   for(int i = 0; i < magicN/2+1; i++) {
     for(int k = 0; k < magicN; k++) {
