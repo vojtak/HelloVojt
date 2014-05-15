@@ -7,7 +7,7 @@ using namespace std;
 double magicNumber() {
 
   /* this is placeholder, fill it with some fancy stuff! */
-  return 42;
+  return 142;
 }
 
 int main(int argc, char **argv) {
