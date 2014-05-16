@@ -128,7 +128,7 @@ for(int j=0;j<Nboots;j++){
 	}
 }
 
-1
+
 
 //	for(int i=0;i<Nt/2;i++)
 //	cout << j << i << "\t" << Gfunavboots[i][j] << "\t" << Gfunavboots[i+1][j] << "\t" << dEboots[i][j] <<  "\n";
